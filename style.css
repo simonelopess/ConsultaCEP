@@ -1,0 +1,86 @@
+*{
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+}
+ul li {
+  list-style: none;
+}
+
+body{
+  width: 100vw;
+  height: 100vh;
+  
+}
+#app{
+  margin: auto;
+  max-width: 800px;
+  color: rgba(99, 81, 134, 0.89);
+  height: 500px;
+  background-color: rgba(109, 125, 146, 0.349);
+}
+
+h3{
+  font-size: 1.5em;
+  text-align: center;
+  padding: 20px;
+}
+
+#app{
+  position: relative;
+}
+
+#app input{
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  height: 30px;
+  border: rgb(228, 227, 227);
+  border-radius: 2px;
+}
+input[type=text]:focus{
+  border: 1px solid red;
+}
+
+#app button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 120px;
+  border: none;
+  height: 30px;
+  color: rgba(116, 115, 119, 0.89);
+}
+
+#app button:hover{
+  color: white;
+  background-color: rgb(128, 128, 128);
+}
+
+ul li {
+  text-align: center;
+  font-size: 1.125em;
+}
+
+#img-search img{
+  text-align: center;
+  display: inline-block;
+  margin-top: px;
+  position: relative;
+  top: 2px;
+  left: 2px
+}
+
+button a {
+  text-decoration: none;
+  color: currentColor;
+}
+
+#img-icone{
+  position: absolute;
+  right: 160px;
+  bottom: 20px;
+}
